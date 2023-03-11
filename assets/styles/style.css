@@ -1,0 +1,36 @@
+.topic h1 {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#background {
+	background-image: image("coder.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.topic {
+	text-align: center;
+}
+.topic p {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#informations {
+	padding-top: 10;
+	margin: 50px;
+	background-color: rgba(0, 0, 0, 50%);
+	
+}
+
+.question a {
+	padding-bottom: 10px;
+}
+
+.name {
+	height: 30px;
+	width: 50%;
+}
