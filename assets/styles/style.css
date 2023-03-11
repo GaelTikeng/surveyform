@@ -5,7 +5,7 @@
 }
 
 #background {
-  background: linear-gradient(#7777,#7890), url("../images/coder.png");
+  background: linear-gradient(#7777, #7890), url("../images/coder.png");
   background-size: cover;
   background-position: center;
   color: white;
