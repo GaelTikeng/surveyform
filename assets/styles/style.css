@@ -5,9 +5,11 @@
 }
 
 #background {
-	background-image: image("coder.jpg");
+	background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://www.freecodecamp.org/news/content/images/size/w2000/2023/02/coderr.png);
 	background-size: cover;
 	background-position: center;
+	color: white;
+	
 }
 
 .topic {
@@ -20,17 +22,49 @@
 }
 
 #informations {
-	padding-top: 10;
-	margin: 50px;
-	background-color: rgba(0, 0, 0, 50%);
+	padding-top: 25px;
+	padding-left: 30px;
+	margin-right: 350px;
+	margin-left: 350px;
+	padding-right: 200px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	background: rgba(12, 12, 14, 0.267);
 	
+}
+
+.form {
+	width: 565px;
+	height: 30px;
+}
+
+#comments {
+	height: 100px;
+	width: 565px;
+
 }
 
 .question a {
 	padding-bottom: 10px;
 }
 
+.input-textarea {
+	font-size: 15px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.feature {
+	width: 611px;
+}
 .name {
 	height: 30px;
-	width: 50%;
+	width: 560px;
+}
+.button {
+	width: 570px;
+	display: block;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 0.75rem;
+	background-color: lightgreen;
 }
