@@ -18,7 +18,7 @@
 .topic p {
   font-style: italic;
   font-size: 20px;
- margin-top: 10px;
+  margin-top: 10px;
 }
 
 #informations {
@@ -48,16 +48,16 @@
 
 .input-textarea {
   font-size: 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .feature {
-width: 611px;
+  width: 611px;
 }
 
 .name {
   height: 30px;
-width: 560px;
+  width: 560px;
 }
 
 .button {
