@@ -4,26 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
   <title>surveyform</title>
   <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-<section id="background">
+<div id="background">
 <header class="topic">
 <h1>freeCodeCamp Survey Form</h1>
 <p>thank you for taking the time to help us improve the platform</p>
 </header>
 <!--personal info-->
-<section id="informations">
-<form>
+<form id="informations">
 <label for="name">Name</label>
 <input class="name" type="text" placeholder="Enter your name" autocomplete="family-name" required>
 <label for="email">Email</label>
 <input class="name" type="text" placeholder="Enter your email" required>
 <label for="age">Age<span>(optional)</span></label>
 <input class="name" type="number" placeholder="Enter your age">
-</form>
 <p>Which option best describe you current role?</p>
 <div class="form">
 <select id="fold" name="role" class="form" required>
@@ -37,7 +37,7 @@
 </div>
 <!--personal info-->
 <div class="true">
-<form action="/submit">
+<div action="/submit">
 <p>Would you recommend freeCodeCamp to a friend?</p>
 <lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure">Definitely</lable><br>
 <lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure">Maybe</lable><br>
@@ -78,7 +78,7 @@
 <div class="submit">
 <button class="button" type="submit" href="#">submit</button>
 </div>
-</section>
+</form>
 </section>
 </body>
 </html>
