@@ -5,7 +5,7 @@
 }
 
 #background {
-  background: linear-gradient(#7777, #7890), url("../images/coder.png");
+  background: linear-gradient( 115deg, #3a3a9ecc, #8888ceb3 ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-size: cover;
   background-position: center;
   color: white;
@@ -59,11 +59,18 @@
   width: 560px;
 }
 
+.submit {
+  padding: 20px 0 50px 0;
+}
+
 .button {
   width: 570px;
   display: block;
   cursor: pointer;
-  border-radius: 5px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 20px;
   padding: 0.75rem;
-  background-color: lightgreen;
+  background-color: #37af65;
+  border: none;
 }
