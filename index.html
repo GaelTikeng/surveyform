@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>surveyform</title>
 <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
@@ -38,9 +39,9 @@
 <div class="true">
 <form action="/submit">
 <p>Would you recommend freeCodeCamp to a friend?</p>
-<lable><input type="radio" name="Definitely-Maybe-Not sure">Definitely</lable><br>
-<lable><input type="radio" name="Definitely-Maybe-Not sure">Maybe</lable><br>
-<lable><input type="radio" name="Definitely-Maybe-Not sure">Not sure</lable><br>
+<lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure">Definitely</lable><br>
+<lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure">Maybe</lable><br>
+<lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure">Not sure</lable><br>
 </form>
 </div>
 <!--feature-->
@@ -53,7 +54,7 @@
 <option value="community">Community</option>
 <option value="open source">Open source</option>
 </select>
-<form>
+<form class="checkbox">
 <p>What would you like to see improved? (Check all that apply)</p>
 <label><input type="checkbox">Font-end project</label><br>
 <label><input type="checkbox">Back-end projet</label><br>

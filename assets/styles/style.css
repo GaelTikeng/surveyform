@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+ font-family: Poppins, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5;
+  font-weight: 400;
+}
+
 .topic h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 30px;
@@ -13,12 +26,14 @@
 
 .topic {
   text-align: center;
+  padding: 15px 0;
 }
 
 .topic p {
   font-style: italic;
   font-size: 20px;
   margin-top: 10px;
+  padding-bottom: 15px;
 }
 
 #informations {
@@ -29,6 +44,11 @@
   padding-right: 200px;
   border-radius: 10px;
   background-color: #011436;
+  opacity: 0.9;
+}
+
+#informations p {
+  padding: 10px 0;
 }
 
 .form {
@@ -54,9 +74,19 @@
   width: 611px;
 }
 
+.true {
+  margin: 10px 0;
+  line-height: 1.5 !important;
+}
+
 .name {
   height: 30px;
   width: 560px;
+  margin: 15px 0 ;
+}
+
+.checkbox {
+  line-height: 1.5 !important;
 }
 
 .submit {
