@@ -1,36 +1,69 @@
 .topic h1 {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 30px;
-	margin-bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 #background {
-	background-image: image("coder.jpg");
-	background-size: cover;
-	background-position: center;
+  background: linear-gradient(#7777, #7890), url("../images/coder.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 
 .topic {
-	text-align: center;
+  text-align: center;
 }
+
 .topic p {
-	font-style: italic;
-	font-size: 20px;
-	margin-top: 10px;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 #informations {
-	padding-top: 10;
-	margin: 50px;
-	background-color: rgba(0, 0, 0, 50%);
-	
+  padding-top: 25px;
+  padding-left: 30px;
+  margin-right: 350px;
+  margin-left: 350px;
+  padding-right: 200px;
+  border-radius: 10px;
+  background-color: #011436;
+}
+
+.form {
+  width: 565px;
+  height: 30px;
+}
+
+#comments {
+  height: 100px;
+  width: 564px;
 }
 
 .question a {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.input-textarea {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.feature {
+  width: 611px;
 }
 
 .name {
-	height: 30px;
-	width: 50%;
+  height: 30px;
+  width: 560px;
+}
+
+.button {
+  width: 570px;
+  display: block;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.75rem;
+  background-color: lightgreen;
 }
