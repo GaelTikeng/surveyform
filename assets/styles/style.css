@@ -22,6 +22,7 @@ body {
   background: linear-gradient(115deg, #3a3a9ecc, #8888ceb3), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: white;
 }
 
@@ -38,6 +39,7 @@ body {
 }
 
 #informations {
+  align-self: center;
   padding-top: 25px;
   padding-left: 30px;
   margin-right: 350px;
