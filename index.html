@@ -1,74 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>surveyform</title>
-		<link rel="stylesheet" href="./assets/styles/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <title>surveyform</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 <body>
-	<section id="background">
-		<header class="topic">
-			<h1>freeCodeCamp Survey Form</h1>
-			<p>thank you for taking the time to help us improve the platform</p>
-		</header>
-
-		<!--personal info-->
-
-		<section id="informations">
-				<div class="question">
-					<p>Name</p>
-					<input class="name" type="text" placeholder="Enter your name" required>
-				</div>
-				<div class="question">
-					<p>Email</p>
-					<input class="name" type="text" placeholder="Enter your email" required>
-				</div>
-				<div class="question">
-					<p>Age (optional)</p>
-					<input class="name" type="text" placeholder="Enter your age">
-				</div>
-				<div class="question">
-					<p>Which option best describe you current role?</p>
-					<input class="name" type="" placeholder="Enter your name" required>
-				</div>
-			
-
-			<!--personal info-->
-
-			<section id="true">
-				<form action="/submit">
-					<p>Would you recommend freeCodeCamp to a friend?</p>
-					<lable><input type="radio" name="Definitely-Maybe-Not sure">Definitely</lable><br>
-					<lable><input type="radio" name="Definitely-Maybe-Not sure">Maybe</lable><br>
-					<lable><input type="radio" name="Definitely-Maybe-Not sure">Not sure</lable><br>
-				</form>
-			</section>	
-
-			<!--feature-->
-
-			<section>
-				<p>What is your favorite feature of freeCodeCamp?</p>
-				<input class="name" type="" placeholder="Select an option"><br>
-				<p>What would you like to see improved? (Check all that apply)</p>
-				<label><input type="checkbox">Font-end project</label><br>
-				<label><input type="checkbox">Back-end projet</label><br>
-				<label><input type="checkbox">Data visualisation</label><br>
-				<label><input type="checkbox">Challenges</label><br>
-				<label><input type="checkbox">Open source community</label><br>
-				<label><input type="checkbox">Gitter helps rooms</label><br>
-				<label><input type="checkbox">Videos</label><br>
-				<label><input type="checkbox">City Meetup</label><br>
-				<label><input type="checkbox">Wiki</label><br>
-				<label><input type="checkbox">Forums</label><br>
-				<label><input type="checkbox">Additional courses</label><br>
-			</section>
-
-			<!--comment-->
-		</section>
-
-	</section>
-
+<div id="background">
+<header class="topic">
+<h1>freeCodeCamp Survey Form</h1>
+<p>thank you for taking the time to help us improve the platform</p>
+</header>
+<!--personal info-->
+<div id="informations">
+<label for="name">Name</label>
+<input class="name" type="text" placeholder="Enter your name" autocomplete="family-name" required>
+<label for="email">Email</label>
+<input class="name" type="text" placeholder="Enter your email" required>
+<label for="age">Age<span>(optional)</span></label>
+<input class="name" type="number" placeholder="Enter your age">
+<p>Which option best describe you current role?</p>
+<div class="form">
+<select id="fold" name="role" class="form" required>
+<option disabled selected value>Select current role</option>
+<option value="student">Student</option>
+<option value="full time job">Full time job</option>
+<option value="full time learner">Full time learner</option>
+<option value="prefere not to say">Prefere not to say</option>
+<option value="other">Other</option>
+</select>
+</div>
+<!--personal info-->
+<div class="true">
+<div action="/submit">
+<p>Would you recommend freeCodeCamp to a friend?</p>
+<lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure"> Definitely</lable><br>
+<lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure"> Maybe</lable><br>
+<lable class="leb"><input type="radio" name="Definitely-Maybe-Not sure"> Not sure</lable><br>
+</div>
+</div>
+<!--feature-->
+<div class="feature">
+<p>What is your favorite feature of freeCodeCamp?</p>
+<select name="feature" id="feature" class="form">
+<option disabled selected value> Select an option</option>
+<option value="Challenges"> Challengess</option>
+<option value="projects"> Projects</option>
+<option value="community"> Community</option>
+<option value="open source"> Open source</option>
+</select>
+<form class="checkbox">
+<p>What would you like to see improved? (Check all that apply)</p>
+<label><input type="checkbox">  Font-end project</label><br>
+<label><input type="checkbox">  Back-end projet</label><br>
+<label><input type="checkbox">  Data visualisation</label><br>
+<label><input type="checkbox">  Challenges</label><br>
+<label><input type="checkbox">  Open source community</label><br>
+<label><input type="checkbox">  Gitter helps rooms</label><br>
+<label><input type="checkbox">  Videos</label><br>
+<label><input type="checkbox">  City Meetup</label><br>
+<label><input type="checkbox">  Wiki</label><br>
+<label><input type="checkbox">  Forums</label><br>
+<label><input type="checkbox">  Additional courses</label><br>
+</form>
+</div>
+<!--comment-->
+<div class="comment">
+<p>Any comments or suggestions?</p>
+<textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+</div>
+<!--sudmit-->
+<div class="submit">
+<button class="button" type="submit" href="#">submit</button>
+</div>
+</div>
+</div>
 </body>
 </html>
